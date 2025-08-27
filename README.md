@@ -49,7 +49,7 @@ This style guide is mostly based on the standards that are currently prevalent i
         return <div>{this.state.hello}</div>;
       }
     }
-    ```
+    `
 
     And if you don’t have state or refs, prefer normal functions (not arrow functions) over classes:
 
