@@ -33,7 +33,7 @@ This style guide is mostly based on the standards that are currently prevalent i
 
   - If you have internal state and/or refs, prefer `class extends React.Component` over `React.createClass`. eslint: [`react/prefer-es6-class`](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md) [`react/prefer-stateless-function`](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md)
 
-    ```jsx
+    ``jsx
     // bad
     const Listing = React.createClass({
       // ...
