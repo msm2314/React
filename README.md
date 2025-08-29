@@ -70,7 +70,7 @@ This style guide is mostly based on the standards that are currently prevalent i
     function Listing({ hello }) {
       return <div>{hello}</div>;
     }
-    ```
+  
 
 ## Mixins
 
